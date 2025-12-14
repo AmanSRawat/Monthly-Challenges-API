@@ -22,4 +22,17 @@ public class Challenge {
     public String getDescription(){
         return description;
     }
+
+    public void setId(Long id){
+        this.id = id;
+    }
+
+    public void setMonth(String month){
+        this.month = month;
+    }
+
+    public void setDescription(String descrtiption){
+        this.description= descrtiption;
+    }
+
 }
